@@ -9,7 +9,7 @@ import { PanelResizer } from "./PanelResizer";
 export const SETTINGS_PANEL_DEFAULT = 360;
 export const SETTINGS_PANEL_MAX = 1600;
 /** What the chat under the panel keeps for itself, however far the panel is dragged. */
-const CONVERSATION_PANEL_MIN = 96;
+const CONVERSATION_PANEL_MIN = 360;
 
 /** Shared right-panel shell; caller owns per-owner sections. */
 

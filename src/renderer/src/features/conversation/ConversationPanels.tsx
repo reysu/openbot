@@ -33,7 +33,8 @@ import type { VoiceConversationKind } from "./stores/voice-session-store";
 const BROWSER_PANEL_DEFAULT_RATIO = 0.5;
 const BROWSER_PANEL_MIN = 220;
 const BROWSER_PANEL_MAX = 1600;
-const CONVERSATION_PANEL_MIN = 96;
+/** What the chat beside a side panel keeps for itself, however far the panel is dragged or the window is shrunk. */
+const CONVERSATION_PANEL_MIN = 360;
 const loadAgentSettingsPanel = () => import("./AgentSettingsPanel");
 
 import { type HostFolderPick, HostFolderPicker } from "@openbot/ui/features/conversation/HostFolderPicker";
